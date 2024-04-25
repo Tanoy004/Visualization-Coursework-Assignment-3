@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    background-color: lightgray;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+li a {
+    height: 10px;
+    color: yellow;
+    padding: 20px 80px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    background-color: #64A2ED;
+    font-size: 17.5px;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.bar {
+    fill: #A464ED;
+}
+
+.highlight {
+    fill: #ED64C8;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.grid line {
+    stroke: darkblue;
+    stroke-opacity: 0.5
+}
+
+.svgContainer {
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    z-index: 1;
+}
